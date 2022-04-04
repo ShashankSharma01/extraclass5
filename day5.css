@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 100px 100px;
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+}
+
+.box1{
+    background-color: brown;
+    grid-column: 1/4;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color:green;
+} 
+.box5{
+    background-color: tomato;
+}
+.box6{
+    background-color: yellow;
+}
+.box7{
+    background-color: dodgerblue;
+}
+.box8{
+    background-color: violet;
+}
+.box9{
+    background-color: rebeccapurple;
+}
